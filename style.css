@@ -6,6 +6,10 @@ body {
   color: #505962;
 }
 
+p {
+  text-align: left;
+}
+
 .offset:before {
   display: block;
   content: "";
@@ -104,6 +108,9 @@ body {
   border:  #2F74B5;
 }
 
+.hackster {
+  color:  #2F74B5;
+}
 
 .btn-secondary:hover {
   background-color:#1B4368;
@@ -174,7 +181,7 @@ h3.heading{
 }
 blockquote svg.svg-inline--fa{
   color: #2F74B5;
-  margin: 1rem;
+  margin: .2rem;
 }
 .reds-hr {
   border-top: .05rem solid  #2F74B5;
