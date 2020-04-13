@@ -154,9 +154,9 @@ h3.heading{
 }
 
 
+
 /*--- Portfolio Section--- */
 .fixed{
-  background-image: url(img/ecocar/fun_team_pic_with_car.jpg);
   z-index: -1;
 }
 .dark {
@@ -170,9 +170,20 @@ h3.heading{
 
 .fixed-background p{
   margin-top: 1.5rem;
-  
-
 }
+.academic{
+  background-image: url(img/projects/microcontroller.jpg);
+}
+
+/*--- EcoCAR ---*/
+.ecocar{
+  background-image: url(img/ecocar/fun_team_pic_with_car.jpg);
+}
+
+.ecocar i{
+  margin-top: 0.5;
+}
+
 
 /*--- Reds Section--- */
 .reds img{
