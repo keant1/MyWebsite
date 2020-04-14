@@ -183,6 +183,18 @@ h3.heading{
   margin-top: 0.5;
 }
 
+.showcase img {
+  background: 50% 50%;
+  border-radius: 25%;
+  width: 100%;
+  transition: transform .2s;
+}
+
+.showcase:hover img {
+  /*transform: scale(2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) 
+  position: relative;*/
+}
+
 /*--- Reds Section--- */
 .reds img{
   width: 100%;
