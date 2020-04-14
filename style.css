@@ -183,7 +183,6 @@ h3.heading{
   margin-top: 0.5;
 }
 
-
 /*--- Reds Section--- */
 .reds img{
   width: 100%;
@@ -195,8 +194,12 @@ blockquote svg.svg-inline--fa{
 }
 .reds-hr {
   border-top: .05rem solid  #2F74B5;
-
 }
+
+.sing{
+  background-image: url(img/singing.jpg);
+}
+
 /*--- Contact Section--- */
 footer{
   background-color: #40474e;
