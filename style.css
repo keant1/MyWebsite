@@ -229,6 +229,18 @@ blockquote svg.svg-inline--fa{
   width: 100%;
   border-radius: 20%;
 }
+.misc a{
+  color: #2F74B5;
+}
+
+.matrix i{
+  padding: 2rem 0 0;
+}
+
+.matrix p{
+  text-align: center;
+  margin: 1  1 2rem;
+}
 
 /*--- Contact Section--- */
 footer{
