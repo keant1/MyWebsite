@@ -220,11 +220,16 @@ blockquote svg.svg-inline--fa{
   border-top: .05rem solid  #2F74B5;
 }
 
+.reds blockquote {
+  text-align: left;
+}
+
+
 .sing{
   background-image: url(img/singing.jpg);
 }
 
-/*--- Contact Section--- */
+/*--- Miscellaenous Section--- */
 .misc img{
   width: 100%;
   border-radius: 20%;
