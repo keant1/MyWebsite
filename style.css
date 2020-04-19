@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import "css/footer.css";
 
 body {
   overflow-x: hidden;
@@ -103,7 +104,7 @@ svg.svg-inline--fa{
 
 .btn-secondary {
   border-width: medium;
-  border-radius:0; 
+  border-radius:0;
   text-transform: uppercase;
   font-size: 1.2rem;
   padding: .6rem 1.2rem;
@@ -173,7 +174,7 @@ h3.heading{
 }
 .fixed-background i{
   padding-top: 1rem;
- 
+
 }
 
 .fixed-background svg.svg-inline--fa{
@@ -203,7 +204,7 @@ h3.heading{
 }
 
 .showcase:hover img {
-  /*transform: scale(2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) 
+  /*transform: scale(2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport)
   position: relative;*/
 }
 
@@ -248,36 +249,8 @@ blockquote svg.svg-inline--fa{
   margin: -1rem 1 2rem;
 }
 
-/*--- Contact Section--- */
-footer{
-  background-color: #40474e;
-  color:white;
-  padding: 2rem 0 2rem;
-  margin-top: -1rem;
-}
+/*--- Contact Section, moved to Footer.html--- */
 
-footer img{
-  height: 4rem;
-  margin: 1.5rem 0;
-}
-footer a{
-  color: white;
-}
-footer p{
-  text-align: center;
-}
-footer svg.svg-inline--fa{
-  font-size: 1.6rem;
-  margin: 1.2rem .5rem 0 0;
-}
-footer svg.svg-inline--fa:hover{
-  color: #2F74B5!important;
-}
-hr.socket{
-  width: 100%;
-  border-top: .2rem solid #676b71;
-  margin-top: 3rem;
-}
 
 /*--- Media Queries ---*/
 @media (max-width: 767px){
@@ -286,7 +259,7 @@ hr.socket{
     letter-spacing: .15rem;
     padding-bottom: .5rem;
   }
-  
+
   .caption h3 {
     font-size: 1.2rem;
     padding-bottom: 1.2rem;
